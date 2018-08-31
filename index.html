@@ -1,45 +1,160 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Hummingbird Hill</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="./assets/style/norm.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="./assets/style/main.css" />
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hummingbird Hill</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/style/norm.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/style/main.css" />
+  </head>
 
-<body>
-  <div class="container">
-    <header>
-      <h3 class="logo">Logo</h3>
-      <nav>
-        <ul class="nav__links">
-          <li><a href="#" class="nav__link">Nav Link</a></li>
-          <li><a href="#" class="nav__link">Nav Link</a></li>
-          <li><a href="#" class="nav__link">Nav Link</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="jumbotron">
-      <h1>Jumbotron</h1>
-    </div>
-    <div class="section section--center">
-      <h2 class="highlight">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>
-    </div>
-    <div class="divider">divider</div>
-    <div class="section section--left">
-      <h2 class="highlight review">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2> <a href="#" class="btn btn-primary"></a>
-    </div>
-    <div class="section section--midfocus">
-      <div class="form__container">
-        <form> <input type="text" name="firstName"> <input type="text" name="lastName"> <input type="email" name="email">          <textarea
-            name="message" cols="30" rows="10"></textarea> </form>
+  <body>
+
+    <div class="container">
+
+      <!-- HEADER -->
+      <header>
+        <h3 class="logo">Hummingbird Hill</h3>
+        <nav>
+            <!-- <a href="#amenities" class="nav__link nav__link--active">amenities</a> -->
+            <a href="#amenities" class="nav__link">amenities</a>
+          <!-- <a href="#" class="nav__link">book</a> -->
+          <a href="#contact" class="nav__link">contact</a>
+        </nav>
+      </header>
+
+      <!-- JUMBOTRON -->
+      <div class="jumbotron">
+        <!-- <h1>Jumbotron</h1> -->
       </div>
+
+      <!-- CENTERED SECTION -->
+      <div class="section section--center">
+        <h2>A cozy bed and breakfast nestled in the heart of New England.</h2>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="divider"></div>
+
+      <!-- CENTERED SECTION -->
+      <div class="section section--center" id="amenities">
+        <div class="highlights">
+          <div class="highlight">
+            <h3>Room One</h3>
+            <img src="./assets/images/room1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fugit temporibus, rem culpa quos ipsa qui totam doloribus dolores distinctio assumenda nulla dolorum quidem minus voluptatibus fugiat molestiae est corporis!</p>
+            <a href="#" class="btn btn--secondary">More info</a>
+          </div>
+          <div class="highlight">
+            <h3>Room Two</h3>
+            <img src="./assets/images/room2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fugit temporibus, rem culpa quos ipsa qui totam doloribus dolores distinctio assumenda nulla dolorum quidem minus voluptatibus fugiat molestiae est corporis!</p>
+            <a href="#" class="btn btn--secondary">More info</a>
+          </div>
+          <div class="highlight">
+            <h3>Room Three</h3>
+            <img src="./assets/images/room1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fugit temporibus, rem culpa quos ipsa qui totam doloribus dolores distinctio assumenda nulla dolorum quidem minus voluptatibus fugiat molestiae est corporis!</p>
+            <a href="#" class="btn btn--secondary">More info</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="divider"></div>
+
+      <!-- LARGE LEFT SECTION -->
+      <div class="section section--leftfocus">
+        <div class="left--lg">
+          <h2>The perfect getaway.</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum in soluta accusantium corrupti, nemo placeat fugiat distinctio quam aspernatur sapiente unde odit a deserunt totam, quisquam aliquam corporis? Cum, voluptates.</p>
+          <a href="#" class="btn btn--primary">BUTTON</a>
+        </div>
+        <div class="left--wrapper">
+        <div class="left--sm">
+          <h3>Amenities</h3>
+          <ul>
+            <li>Bed</li>
+            <li>Bathroom</li>
+            <li>Television</li>
+          </ul>
+        </div>
+        <div class="left--sm">
+          <h3>Rates</h3>
+          <ul>
+            <li>$100/night Sun - Thu</li>
+            <li>$150/night Fri - Sat</li>
+            <li>$600/week</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="divider"></div>
+
+      <!-- LEFT JUSTIFIED SECTION -->
+      <div class="section section--left">
+        <h2 class="quote">If you want peace and tranquility this is the Bed and Breakfast for you. Absolutely beautiful location on a quiet pond.</h2>
+        <a href="#" class="btn btn--secondary">READ TESTIMONIALS</a>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="divider"></div>
+
+      <!-- LARGE MIDDLE SECTION -->
+      <div class="section section--midfocus" id="contact">
+        <div class="mid--sm">
+          <h2>Contact Us</h2>
+          <ul>
+            <li>123 Main St</li>
+            <li>Anytown US, 01234</li>
+          </ul>
+          <ul>
+            <li>1 (555) 555 5555</li>
+            <li>contact@email.com</li>
+          </ul>
+        </div>
+        <div class="mid--lg">
+          <form>
+            <label for="firstName">Name</label>
+            <div>
+              <input id="firstName" type="text" name="firstName" placeholder="first name" />
+              <input id="lastName" type="text" name="lastName" placeholder="last name" />
+            </div>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" placeholder="you@email.com" />
+            <label for="message">Message</label>
+            <textarea name="message" cols="30" rows="10"></textarea>
+            <a href="#" class="btn btn--secondary">SEND MESSAGE</a>
+          </form>
+        </div>
+        <div class="mid--sm">
+          <h3>How are we doing?</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa adipisci officia beatae distinctio eveniet, suscipit omnis ipsum quasi laudantium eaque ut.</p>
+        </div>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="divider"></div>
+
+      <!-- LEFT JUSTIFIED SECTION -->
+      <div class="section section--left">
+        <h2>Gallery</h2>
+        <div class="gallery">
+          <img class="gallery__image" src="./assets/images/gal1.jpg" alt="">
+          <img class="gallery__image" src="./assets/images/gal2.jpg" alt="">
+          <img class="gallery__image" src="./assets/images/gal3.jpg" alt="">
+          <img class="gallery__image" src="./assets/images/gal4.jpg" alt="">
+        </div>
+      </div>
+
     </div>
-    <div class="section leftfocus">leftfocus</div>
-  </div>
-</body>
+
+  </body>
 
 </html>
